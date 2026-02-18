@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codestar-connections`](https://www.npmjs.com/package/@aws-sdk/client-codestar-connections/v/3.209.0).
+[`@aws-sdk/client-codestar-connections`](https://www.npmjs.com/package/@aws-sdk/client-codestar-connections/v/3.210.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.209.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.210.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vay6rvd6KJSY/FAN96VyEhf9D6xQQainuMYbjNHGJfyspD96Q/lMGEFb4kGnMAl2
+sha384-3P3MiitgUr8YfwXr88+x2+5L46EFJi51VC2ZqR1VTUc49Tteqeb8dQ/VXd5QaTiP
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codestar-connections": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.209.0/index.min.mjs"
+            "@aws-sdk/client-codestar-connections": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.210.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.209.0/index.min.mjs": "sha384-vay6rvd6KJSY/FAN96VyEhf9D6xQQainuMYbjNHGJfyspD96Q/lMGEFb4kGnMAl2"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.210.0/index.min.mjs": "sha384-3P3MiitgUr8YfwXr88+x2+5L46EFJi51VC2ZqR1VTUc49Tteqeb8dQ/VXd5QaTiP"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codestar-connections": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.209.0/index.min.mjs"
+                        "@aws-sdk/client-codestar-connections": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.210.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.209.0/index.min.mjs": "sha384-vay6rvd6KJSY/FAN96VyEhf9D6xQQainuMYbjNHGJfyspD96Q/lMGEFb4kGnMAl2"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-connections@3.210.0/index.min.mjs": "sha384-3P3MiitgUr8YfwXr88+x2+5L46EFJi51VC2ZqR1VTUc49Tteqeb8dQ/VXd5QaTiP"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.209.0`)
+* Always pin to a specific version (`@3.210.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codestar-connections/blob/refs/tags/3.209.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codestar-connections/blob/refs/tags/3.210.0/LICENSE
 ```
 
 ---
